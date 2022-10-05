@@ -1,6 +1,6 @@
 header{
   height: 70px;
-  background-color: rgb(88, 0, 0);
+  background-color: #f8f9fa;
 }
 
 aside{
@@ -15,5 +15,66 @@ main{
   height: calc(100vh - 70px);
   background-color: cornflowerblue;
   overflow-y: auto;
+}
 
+.rl-container-logo{
+  width: 10%;
+}
+
+.debug{
+  background-color: rgba(240, 248, 255, 0.342);
+  border: 1px solid black;
+
+}
+
+/* NAV */
+.rl-nav{
+  background-color: #ffffff;
+}
+
+.rl-nav,
+.logo,
+.rl-icon{
+  height: 40px;
+}
+
+.logo{
+  width: 10%;
+  margin-right: 20px;
+}
+
+.rl-form{
+  width: calc(100% - 100px);
+}
+
+.rl-form .form-control{
+  background-color: #e5e5e5;
+  border: none;
+}
+
+.rl-icon{
+  width: 210px;
+}
+
+.rl-icon a{
+  color: #5b5858;
+  margin: 0 20px;
+}
+
+.rl-icon a:hover{
+  color: #cacaca;
+}
+
+.rl-icon a:first-child{
+  margin-left: 0px;
+}
+
+.rl-icon .bell{
+  color: #ff8f00;
+  text-align: center;
+  margin-right: 0px;
+}
+
+.rl-icon .bell:hover{
+  color: #ffb758;
 }

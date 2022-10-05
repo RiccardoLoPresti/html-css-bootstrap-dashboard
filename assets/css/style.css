@@ -1,0 +1,19 @@
+header{
+  height: 70px;
+  background-color: rgb(88, 0, 0);
+}
+
+aside{
+  float: left;
+  height: calc(100vh - 70px);
+  width: 8%;
+  min-width: 80px;
+  background-color: blueviolet;
+}
+
+main{
+  height: calc(100vh - 70px);
+  background-color: cornflowerblue;
+  overflow-y: auto;
+
+}

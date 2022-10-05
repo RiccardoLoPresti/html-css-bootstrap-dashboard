@@ -7,13 +7,13 @@ aside{
   float: left;
   height: calc(100vh - 70px);
   width: 8%;
-  min-width: 80px;
+  min-width: 100px;
   background-color: #051e34;
 }
 
 main{
   height: calc(100vh - 70px);
-  background-color: cornflowerblue;
+  background-color:#ffffff;
   overflow-y: auto;
 }
 
@@ -93,6 +93,4 @@ aside a:hover{
 
 aside a i{
   font-size: 1.3rem;
-  padding-right: 10px;
 }
-

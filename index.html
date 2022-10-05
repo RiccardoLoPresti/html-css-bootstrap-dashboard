@@ -24,9 +24,9 @@
 
         <div class="logo d-flex h-100 align-items-center">
 
-          <img src="assets/img/logo.svg" class="img-fluid" alt="logo">
+          <img src="assets/img/logo.svg" class="logo_big img-fluid" alt="logo">
 
-          <img src="assets/img/mobile-logo.png" class="logo_small d-none img-fluid" alt="mobile-logo">
+          <img src="assets/img/mobile-logo.png" class="logo_small img-fluid" alt="mobile-logo">
           
         </div>
 
@@ -52,7 +52,7 @@
 
     <div class="container-fluid d-flex flex-column justify-content-between align-items-center h-100 w-100">
 
-      <div class="aside_nav d-flex flex-column w-100 debug">
+      <div class="aside_nav d-flex flex-column w-100 ">
         <a href="#">
           <i class="fa-solid fa-house"></i>
           <span> Home</span>
@@ -67,7 +67,7 @@
         </a>
       </div>
 
-      <div class="setting debug">
+      <div class="setting">
         <a href="#">
           <i class="fa-solid fa-gear"></i>
           <span> Admin</span>
@@ -81,13 +81,26 @@
 
   <main>
 
+    <!-- TOP -->
     <div class="container-fluid top">
       <div class="row row-cols-1 row-cols-lg-2">
-        <div class="col col-lg-8 debug">1</div>
-        <div class="col col-lg-4 debug">2</div>
+        <div class="col col-lg-8 p-3 debug">
+          <h2>Boolean <span class="badge rounded-pill text-bg-primary">Primary</span></h2>
+          <span class="badge rounded-pill text-bg-primary">Primary</span>
+          <span class="badge rounded-pill text-bg-primary">Primary</span>
+          <span class="badge rounded-pill text-bg-primary">Primary</span>
+          <span class="badge rounded-pill text-bg-primary">Primary</span>
+          <span class="badge rounded-pill text-bg-primary">Primary</span>
+
+        </div>
+        <div class="col col-lg-4 debug">
+          <span>Alunni affranti negli ultimi 20 secondi</span>
+          <h2>Moltissimi</h2>
+        </div>
       </div>
     </div>
 
+    <!-- BOTTOM -->
     <div class="container-fluid bottom">
       <div class="row row-cols-1 row-cols-lg-2">
         <div class="col col-lg-8 debug">
@@ -266,9 +279,8 @@
         </div>
       </div>
     </div>
+    <!-- /BOTTOM -->
   </main>
 
-
-  
 </body>
 </html>

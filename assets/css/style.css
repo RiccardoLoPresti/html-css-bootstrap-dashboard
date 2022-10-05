@@ -24,7 +24,6 @@ main{
 .debug{
   background-color: rgba(240, 248, 255, 0.342);
   border: 1px solid black;
-  min-height: 50px;
 }
 
 /* NAV */
@@ -41,6 +40,10 @@ main{
 .logo{
   width: 10%;
   margin-right: 20px;
+}
+
+.logo_small{
+  display: none;
 }
 
 .rl-form{
@@ -93,4 +96,49 @@ aside a:hover{
 
 aside a i{
   font-size: 1.3rem;
+}
+
+/* MAIN */
+.top{
+  background-color: #1a73e8;
+}
+
+
+
+/* MEDIA */
+@media (max-width:991px){
+  .logo_big{
+    display: none;
+  }
+
+  .logo_small{
+    display: block;
+    width:38px;
+    min-width: 38px;
+    margin: 0 auto;
+  }
+
+  .rl-icon{
+    width: 40px;
+  }
+
+  .rl-icon a:nth-child(-n+3){
+    display: none;
+  }
+
+  .rl-icon .bell{
+    margin-left: 0px;
+  }
+
+  aside{
+    min-width: 40px;
+  }
+
+  aside span{
+    display: none;
+  }
+
+  .aside_nav{
+    align-items: center;
+  }
 }

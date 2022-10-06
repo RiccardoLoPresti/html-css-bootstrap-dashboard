@@ -205,6 +205,14 @@ tbody td a:hover i{
   color: white!important;
 }
 
+/* FAQ */
+.accordion-item.rl-accordion{
+  border-top:none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+}
+
 /* MEDIA */
 @media (max-width:991px){
   .logo_big{

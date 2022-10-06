@@ -12,7 +12,7 @@ aside{
   float: left;
   height: calc(100vh - 70px);
   width: 8%;
-  min-width: 102px;
+  min-width: 101px;
   background-color: #051e34;
   background-image: url("../img/sidebar-bg.png");
 }
@@ -59,6 +59,15 @@ main{
 .rl-form .form-control{
   background-color: #e5e5e5;
   border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.lent{
+  background-color: #e5e5e5;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding-left: 10px;
 }
 
 .rl-icon{
@@ -125,6 +134,18 @@ aside a i{
 }
 
 /* BOTTOM */
+.rl-btn-t{
+font-size: 1.8rem;
+width: 40px;
+height: 40px;
+line-height: 20px;
+}
+
+/* FORM */
+.offcanvas.offcanvas-end.rl-canvas{
+  width: 75%;
+}
+
 /* TABLE */
 .rl-table{
   font-size: 0.8rem;

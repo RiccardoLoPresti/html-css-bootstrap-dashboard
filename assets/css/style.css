@@ -87,6 +87,10 @@ main{
 .rl-icon .bell:hover{
   color: #ffb758;
 }
+
+.rl-btn{
+  border: none;
+}
 /* /NAV */
 
 /* ASIDE */
@@ -178,11 +182,11 @@ tbody td:last-child a i{
     width: 40px;
   }
 
-  .rl-icon a:nth-child(-n+3){
+  .rl-icon>a:nth-child(-n+3){
     display: none;
   }
 
-  .rl-icon .bell{
+  .dropdown a.bell{
     margin-left: 0px;
   }
 

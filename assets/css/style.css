@@ -82,7 +82,7 @@ main{
   margin: 0 20px;
 }
 
-.rl-icon a:hover{
+.rl-icon>a:hover{
   color: #cacaca;
 }
 

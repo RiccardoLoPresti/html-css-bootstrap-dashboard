@@ -122,8 +122,18 @@ aside a i{
 
 /* BOTTOM */
 /* TABLE */
-tbody tr td.c_large{
-  width: 45%;
+.rl-table{
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.c_large{
+  width: 65%;
+  text-align: start;
+}
+
+.c_small{
+  min-width: 105px;
 }
 
 tbody tr td.c_large:before{
@@ -137,7 +147,18 @@ tbody tr td.c_large:before{
   text-align: center;
   line-height: 30px;
   color: white;
-  margin-right: 20px;
+  margin-right: 10px;
+}
+
+tbody td:last-child a i{
+  border: 1px solid #6c757d;
+  padding: 8px;
+  border-radius: 5px;
+  color: #6c757d;
+}
+
+.text-bg-warning.rl-badge_t{
+  color: white!important;
 }
 
 /* MEDIA */
@@ -193,5 +214,26 @@ tbody tr td.c_large:before{
   #arrow,
   #plus{
   display: inline-block;
+  }
+}
+
+@media (max-width:650px){
+  thead tr th:nth-child(2),
+  tbody tr td:nth-child(2){
+    display: none;
+  }
+}
+
+@media (max-width:530px){
+  thead tr th:nth-child(3),
+  tbody tr td:nth-child(3){
+    display: none;
+  }
+}
+
+@media (max-width:420px){
+  thead tr th:nth-child(4),
+  tbody tr td:nth-child(4){
+    display: none;
   }
 }

@@ -119,8 +119,11 @@ aside a i{
 /* /ASIDE */
 
 /* MAIN */
-.top{
+/* TOP */
+.top,
+.top a {
   color: white;
+  text-decoration: none;
 }
 
 .rl-badge{
@@ -228,12 +231,8 @@ tbody td:last-child a i{
     font-size: 1rem;
   }
 
-  .top span:nth-last-child(-n+3){
+  .top a:nth-last-child(-n+3){
     display: none;
-  }
-
-  .top span:first-child{
-    display: inline-block;
   }
 
   #arrow,

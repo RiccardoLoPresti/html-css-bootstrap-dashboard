@@ -12,7 +12,6 @@ aside{
   float: left;
   height: calc(100vh - 70px);
   width: 8%;
-  min-width: 101px;
   background-color: #051e34;
   background-image: url("../img/sidebar-bg.png");
 }
@@ -44,8 +43,12 @@ main{
 }
 
 .logo{
-  width: 10%;
+  min-width: 7%;
   margin-right: 20px;
+}
+
+.logo_big{
+  width: 180px;
 }
 
 .logo_small{
@@ -106,15 +109,25 @@ main{
 aside a{
   color: white;
   text-decoration: none;
-  margin: 10px 0;
+  margin: 10px 0px;
 }
 
 aside a:hover{
   color: #cacaca;
 }
 
+.aside_nav,
+.setting{
+  font-size: 0.9rem;
+}
+
 aside a i{
   font-size: 1.3rem;
+  padding-right: 5px;
+}
+
+.aside_nav a:nth-child(2){
+  margin-right: 17px;
 }
 /* /ASIDE */
 
@@ -138,7 +151,6 @@ aside a i{
 
 /* BOTTOM */
 .rl-btn-t{
-font-size: 1.8rem;
 width: 40px;
 height: 40px;
 line-height: 20px;
@@ -185,6 +197,10 @@ tbody td:last-child a i{
   color: #6c757d;
 }
 
+tbody td a:hover i{
+  color: #bebebe;
+}
+
 .text-bg-warning.rl-badge_t{
   color: white!important;
 }
@@ -196,10 +212,9 @@ tbody td:last-child a i{
   }
 
   .logo_small{
-    display: block;
-    width:38px;
-    min-width: 38px;
-    margin: 0 auto;
+    display: flex;
+    width:40px;
+    min-width: 40px;
   }
 
   .rl-icon{
@@ -224,6 +239,10 @@ tbody td:last-child a i{
 
   .aside_nav{
     align-items: center;
+  }
+
+  .aside_nav a:nth-child(2){
+    margin-right: 0px
   }
 
   /* MAIN */

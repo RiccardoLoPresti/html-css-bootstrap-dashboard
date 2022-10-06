@@ -31,10 +31,14 @@
 
         <div class="logo d-flex h-100 align-items-center">
 
-          <img src="assets/img/logo.svg" class="logo_big img-fluid" alt="logo">
-
-          <img src="assets/img/mobile-logo.png" class="logo_small img-fluid" alt="mobile-logo">
+          <a href="#">
+            <img src="assets/img/logo.svg" class="logo_big img-fluid" alt="logo">
+          </a>
           
+          <a href="#">
+            <img src="assets/img/mobile-logo.png" class="logo_small img-fluid ms-3" alt="mobile-logo">
+          </a>
+
         </div>
 
         <form class="rl-form d-flex" role="search">
@@ -59,9 +63,24 @@
             </button>
 
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Account</a></li>
-              <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-              <li><a class="dropdown-item" href="#">Log-out</a></li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-user"></i> <span>Account</span> 
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-file-invoice"></i><span> Fatturazione</span> 
+                </a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="#">
+                  <i class="fa-solid fa-right-from-bracket"></i>
+                  <span>Log-out</span> 
+                </a>
+              </li>
             </ul>
 
           </div>
@@ -78,15 +97,15 @@
   <!-- ASIDE -->
   <aside>
 
-    <div class="container-fluid d-flex flex-column justify-content-between align-items-center h-100 w-100">
+    <div class="container-fluid d-flex flex-column justify-content-between align-items-center h-100 w-100 p-0">
 
       <!-- ASIDE-NAV -->
-      <div class="aside_nav d-flex flex-column w-100 mt-1 p-0">
+      <div class="aside_nav d-flex flex-column align-items-center w-100 mt-1 p-0">
         <a href="#">
           <i class="fa-solid fa-house"></i>
           <span> Home</span>
         </a>
-        <a href="#">
+        <a href="#" class="" >
           <i class="fa-solid fa-chart-simple"></i>
           <span> Stat</span>
         </a>
@@ -98,7 +117,7 @@
       <!-- /ASIDE-NAV -->
 
       <!-- SETTING -->
-      <div class="setting mb-4">
+      <div class="setting mb-4 p-0">
         <a href="#">
           <i class="fa-solid fa-gear"></i>
           <span> Admin</span>
@@ -170,7 +189,9 @@
               <h3>Prossime classi</h3>
 
               <!-- FORM -->
-              <button class="btn btn-outline-primary rl-btn-t" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+              <button class="btn btn-outline-primary rl-btn-t" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <i class="fa-solid fa-plus"></i>
+              </button>
 
               <div class="offcanvas offcanvas-end rl-canvas" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
 
